@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FaroukProject</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">ka83rT0D3nx0efmm68o6PhMkeEXUPf0ZZ3kYQLDS</string>
+    <string name="back4app_client_key">fOSEdN1MqkJ6gtNbUdiIrA1CPUouavbirzzwWBaw</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signout">signout</string>
+    <string name="letters_words">Kids Zone</string>
+</resources>

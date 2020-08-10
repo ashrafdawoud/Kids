@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage.ChatActivity">
+    <LinearLayout
+        android:id="@+id/a1"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/header_background"
+        android:elevation="6dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#5578f0"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/image_view_quiz_left_arrow"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/ic_left_arrow"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:onClick="back"
+            android:backgroundTint="#fff"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="16dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/name"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="name"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:paddingTop="10dp"
+                />
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/d1"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/a1"
+        android:orientation="vertical"
+        >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/recy2"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UI Movement is a community of design enthusiasts w
+"
+            android:textSize="18dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/our_message"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UI Movement is a community of design enthusiasts w
+"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/not_our_message"
+            android:padding="10dp"
+            android:textColor="#555353"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UI Movement is a community of design enthusiasts w
+"
+            android:textSize="18dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/our_message"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UI Movement is a community of design enthusiasts w
+"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/not_our_message"
+            android:padding="10dp"
+            android:textColor="#555353"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UI Movement is a community of design enthusiasts w
+"
+            android:textSize="18dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/our_message"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UI Movement is a community of design enthusiasts w
+"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/not_our_message"
+            android:padding="10dp"
+            android:textColor="#555353"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UI Movement is a community of design enthusiasts w
+"
+            android:textSize="18dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/our_message"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UI Movement is a community of design enthusiasts w
+"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/not_our_message"
+            android:padding="10dp"
+            android:textColor="#555353"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UI Movement is a community of design enthusiasts w
+"
+            android:textSize="18dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/our_message"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="UI Movement is a community of design enthusiasts w
+"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/not_our_message"
+            android:padding="10dp"
+            android:textColor="#555353"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    </ScrollView>
+        <LinearLayout
+            android:id="@+id/recy2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="5dp"
+                android:background="@drawable/circle"
+                android:hint="write"
+                android:paddingStart="20dp"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_send_black_24dp"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:backgroundTint="#000"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

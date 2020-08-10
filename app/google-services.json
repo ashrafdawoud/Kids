@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "143104616735",
+    "firebase_url": "https://faroukproject-290f2.firebaseio.com",
+    "project_id": "faroukproject-290f2",
+    "storage_bucket": "faroukproject-290f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143104616735:android:55d602c171fe9940ffe82a",
+        "android_client_info": {
+          "package_name": "com.example.faroukproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143104616735-9td2p37970n4d9v7p7qddg7t4rtsf1e9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.faroukproject",
+            "certificate_hash": "5959c3acf990612bb7b79320d048a51f021496df"
+          }
+        },
+        {
+          "client_id": "143104616735-ngb6he678gfg1h4tta0r3m1pcs18530s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd8MTUjxFyviuDwxzxiTZoUVmv68t3Naw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143104616735-ngb6he678gfg1h4tta0r3m1pcs18530s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
