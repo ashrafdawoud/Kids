@@ -4,11 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8b96d2"
     tools:context=".IntroWithLog.SignUpActivity">
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="500dp"
-        android:background="@drawable/coordinate_back"></RelativeLayout>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -20,7 +18,7 @@
             android:layout_height="wrap_content"
             android:text="Create new account"
             android:textSize="30dp"
-            android:textColor="@color/redBright"
+            android:textColor="#272b3c"
             android:textStyle="bold"
             android:layout_marginStart="20dp"/>
         <LinearLayout
@@ -95,6 +93,7 @@
                 android:background="@drawable/creat_button"
                 android:layout_marginTop="35dp"
                 android:onClick="signup"
+                android:backgroundTint="#272b3c"
                 />
             <TextView
                 android:layout_width="match_parent"
@@ -127,7 +126,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="login"
-                android:textColor="@color/redBright"
+                android:textColor="#272b3c"
                 android:layout_gravity="center"
                 android:layout_marginStart="20dp"
                 android:textSize="15dp"

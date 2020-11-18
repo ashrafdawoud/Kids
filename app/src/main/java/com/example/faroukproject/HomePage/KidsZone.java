@@ -113,25 +113,24 @@ public class KidsZone extends AppCompatActivity {
             ParseQuery<ParseObject> query = ParseQuery.getQuery("Kids");
             //sorting object, ordering it by level number
             //query.orderByAscending("level_number");
+            query.setLimit(1000);
             query.findInBackground(new FindCallback<ParseObject>() {
                 @Override
                 public void done(List<ParseObject> result, ParseException e) {
-
                     if (e == null) {
+                        Log.e("textchange", result.size()+"");
                         for (int i = 0; i < result.size(); i++) {
                             image.add(result.get(i).getString("image_url"));
                             text.add(result.get(i).getString("text"));
                         }
-                        for (int i = 0; i < text.size(); i++){
+                        for (int i = 0; i < image.size(); i++){
                             String s2= String.valueOf(text.get(i).charAt(0));
+                            Log.e("textchange", s+"  "+s2);
                             if (s2.equalsIgnoreCase(s)){
-                                Log.e("textchange", s+"  "+s2);
                                 imagecopy.add(image.get(i));
                                 textcopy.add(text.get(i));
                                 Log.e("practicelist__", String.valueOf(text.get(i)));
-
-                            }
-                        }
+                            } }
                         Log.e("array item", String.valueOf(image.size()));
                         if (imagecopy.size()!=0) {
                             ImageView speak = findViewById(R.id.speak);
@@ -139,8 +138,6 @@ public class KidsZone extends AppCompatActivity {
                         }
                         kidsAdapter = new KidsAdapter(imagecopy, textcopy, KidsZone.this);
                         recyclerView.setAdapter(kidsAdapter);
-
-
                     } else {
                         Log.e("errhere", e.getMessage());
 

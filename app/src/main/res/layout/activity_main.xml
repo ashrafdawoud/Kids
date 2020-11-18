@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".CategoryName"
     android:orientation="vertical"
-    android:background="#fff">
+    android:background="#8b96d2">
 
 
 
@@ -34,7 +34,7 @@
             android:layout_gravity="center_vertical"
             android:text="Practice"
             android:textSize="25dp"
-            android:textColor="#000"
+            android:textColor="#fff"
             android:textAlignment="center"/>
     </LinearLayout>
     <EditText

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#8b96d2"
     tools:context=".Test.TestLevels">
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,7 +30,7 @@
             android:layout_gravity="center_vertical"
             android:text="Test Levels"
             android:textSize="25dp"
-            android:textColor="#000"
+            android:textColor="#fff"
             android:textAlignment="center"/>
     </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView

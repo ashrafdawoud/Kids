@@ -327,7 +327,6 @@ public class Color_exam extends AppCompatActivity implements View.OnClickListene
 
             case R.id.image_view_next_question:
                 if (!allAnswersCompleted) {
-
                     loadPhoto.setVisibility(View.GONE);
                     enableSingleClick();
                     loadQuestionAndAnswerscolor();

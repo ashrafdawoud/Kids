@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ViewPagerFragments.Fragment2">
+    tools:context=".ViewPagerFragments.Fragment2"
+    android:background="#8b96d2"
+    >
 
     <ImageView
         android:id="@+id/image"
@@ -33,7 +35,7 @@
         android:layout_height="wrap_content"
         android:text="Signs of autism usually appear by age 2 or 3. Some associated development delays can appear even earlier, and often, it can be diagnosed as early as 18 months. Research shows that early intervention leads to positive outcomes later in life for people with autism."
         android:textSize="16dp"
-        android:textColor="#8D8A8A"
+        android:textColor="#fff"
         android:layout_below="@+id/maintext"
         android:layout_marginTop="10dp"
         android:textAlignment="center"

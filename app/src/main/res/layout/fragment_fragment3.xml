@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ViewPagerFragments.Fragment3">
+    tools:context=".ViewPagerFragments.Fragment3"
+    android:background="#8b96d2"
+    >
     <ImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
@@ -32,7 +34,7 @@
         android:layout_height="wrap_content"
         android:text="children with autism spectrum disorder often respond well to positive reinforcement. That means when you praise them for the behaviors they're doing well, it will make them (and you) feel good. Be specific, so that they know exactly what you liked about their behavior."
         android:textSize="16dp"
-        android:textColor="#8D8A8A"
+        android:textColor="#fff"
         android:layout_below="@+id/maintext"
         android:layout_marginTop="10dp"
         android:textAlignment="center"

@@ -3,7 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ViewPagerFragments.Fragment1">
+    tools:context=".ViewPagerFragments.Fragment1"
+    android:background="#8b96d2"
+    >
     <ImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
@@ -22,7 +24,7 @@
         android:text="What IS Autism?"
         android:textSize="25dp"
         android:textStyle="bold"
-        android:textColor="@color/redBright"
+        android:textColor="#fff"
         android:layout_below="@+id/image"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
@@ -33,7 +35,7 @@
         android:text="There is no one  type of autism
 Autism, or autism spectrum disorder (ASD), refers to a broad range of conditions characterized by challenges with social skills, repetitive behaviors, speech and nonverbal communication."
         android:textSize="16dp"
-        android:textColor="#8D8A8A"
+        android:textColor="#fff"
         android:layout_below="@+id/maintext"
         android:layout_marginTop="10dp"
         android:textAlignment="center"

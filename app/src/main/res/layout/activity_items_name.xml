@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ItemsName"
+    android:background="#8b96d2"
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,7 +20,7 @@
             android:layout_gravity="center_vertical"
             android:text="Sports"
             android:textSize="25dp"
-            android:textColor="#000"
+            android:textColor="#fff"
             android:textAlignment="center"
             />
     </LinearLayout>

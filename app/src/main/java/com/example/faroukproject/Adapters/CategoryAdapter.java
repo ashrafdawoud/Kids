@@ -55,12 +55,15 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
                 @Override
                 public void onClick(View view) {
                     Intent intent=new Intent(context, ItemsName.class);
-                    intent.putExtra("key",String.valueOf(name.get(position)));
+                    if(name.get(position).equals("Clothes")){
+                        intent.putExtra("key",String.valueOf("Cloths"));
+                    }else {
+                        intent.putExtra("key",String.valueOf(name.get(position)));
+                    }
                     context.startActivity(intent);
                 }
             });
     }
-
     @Override
     public int getItemCount() {
         return name.size();

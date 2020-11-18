@@ -41,10 +41,9 @@ public class TestLevels extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setHasFixedSize(true);
         //recyclerView.setAdapter(levelNameAdapter);
-        findLevels();
+        findexam();
     }
-    public void findLevels() {
-
+    public void findexam() {
         ParseQuery<ParseObject> query = ParseQuery.getQuery("ExamLevel");
         //sorting object, ordering it by level number
         query.orderByAscending("level_number");
@@ -52,7 +51,6 @@ public class TestLevels extends AppCompatActivity {
             @Override
             public void done(List<ParseObject> result, ParseException e) {
                 Log.e("result __",String.valueOf(result.size()));
-
                 if (e == null) {
                     for (int i = 0; i < result.size(); i++) {
 

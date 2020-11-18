@@ -64,14 +64,12 @@ public class ItemsName extends AppCompatActivity implements ItemAdapter.clickLis
 
     }
     public void findItem() {
-
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Items");
         //sorting object, ordering it by level number
         //query.orderByAscending("level_number");
         query.findInBackground(new FindCallback<ParseObject>() {
             @Override
             public void done(List<ParseObject> result, ParseException e) {
-
                 if (e == null) {
                     for (int i =0;i<result.size();i++){
                         if (result.get(i).getString(key+"_image")!=null){
@@ -82,17 +80,12 @@ public class ItemsName extends AppCompatActivity implements ItemAdapter.clickLis
                     }
                     Log.e("array item",String.valueOf(image.size()));
                     itemRecy.setAdapter(itemAdapter);
-
-
                 } else {
                     Log.e("errhere",e.getMessage());
-
                 }
             }
         });
-
     }
-
     @Override
     public void onItemClick(View view, int position) {
         imagecopy.add(image.get(position));

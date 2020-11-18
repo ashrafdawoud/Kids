@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".HomePage.HomePage"
     android:orientation="vertical"
-    android:background="@drawable/coordinate_back"
+    android:background="#8b96d2"
    >
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,9 +19,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:text="App Name"
+            android:text="Autism society"
             android:textSize="25dp"
-            android:textColor="#000"
+            android:textColor="#fff"
             android:textAlignment="center"/>
     </LinearLayout>
     <LinearLayout
@@ -34,9 +34,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:cardCornerRadius="10dp"
-            android:elevation="3dp"
+            android:elevation="15dp"
             android:layout_weight="1"
             android:layout_margin="7dp"
+            android:backgroundTint="#272b3c"
             android:foreground="?attr/selectableItemBackgroundBorderless"
             android:onClick="practice">
             <LinearLayout
@@ -56,7 +57,7 @@
                     android:layout_height="wrap_content"
                     android:text="Practice"
                     android:textSize="22dp"
-                    android:textColor="#000"
+                    android:textColor="#fff"
                     android:textAlignment="center"
                     android:layout_marginTop="3dp"
                     android:layout_marginBottom="7dp"
@@ -73,6 +74,7 @@
             android:elevation="3dp"
             android:layout_margin="7dp"
             android:layout_weight="1"
+            android:backgroundTint="#272b3c"
             android:foreground="?attr/selectableItemBackgroundBorderless"
             android:onClick="Exam">
         <LinearLayout
@@ -92,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:text="Exam"
                 android:textSize="22dp"
-                android:textColor="#000"
+                android:textColor="#fff"
                 android:textAlignment="center"
                 android:layout_marginTop="3dp"
                 android:layout_marginBottom="7dp"
@@ -113,6 +115,7 @@
             android:layout_height="wrap_content"
             app:cardCornerRadius="10dp"
             android:elevation="3dp"
+            android:backgroundTint="#272b3c"
             android:layout_weight="1"
             android:foreground="?attr/selectableItemBackgroundBorderless"
             android:layout_margin="7dp"
@@ -136,7 +139,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/letters_words"
                     android:textSize="22dp"
-                    android:textColor="#000"
+                    android:textColor="#fff"
                     android:textAlignment="center"
                     android:layout_marginTop="3dp"
                     android:layout_marginBottom="7dp"
@@ -154,6 +157,7 @@
             android:layout_margin="7dp"
             android:foreground="?attr/selectableItemBackgroundBorderless"
             android:layout_weight="1"
+            android:backgroundTint="#272b3c"
             android:onClick="chat">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -172,7 +176,7 @@
                     android:layout_height="wrap_content"
                     android:text="Chat"
                     android:textSize="22dp"
-                    android:textColor="#000"
+                    android:textColor="#fff"
                     android:textAlignment="center"
                     android:layout_marginTop="3dp"
                     android:layout_marginBottom="7dp"
@@ -196,6 +200,7 @@
             android:foreground="?attr/selectableItemBackgroundBorderless"
             android:layout_weight="1"
             android:visibility="visible"
+            android:backgroundTint="#272b3c"
             android:layout_margin="7dp">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -215,7 +220,7 @@
                     android:layout_height="wrap_content"
                     android:text="Profile"
                     android:textSize="22dp"
-                    android:textColor="#000"
+                    android:textColor="#fff"
                     android:textAlignment="center"
                     android:layout_marginTop="3dp"
                     android:layout_marginBottom="7dp"

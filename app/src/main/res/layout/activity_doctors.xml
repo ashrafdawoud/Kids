@@ -5,7 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomePage.DoctorsActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#8b96d2"
+
+    >
 
     <LinearLayout
 
@@ -14,7 +17,7 @@
         android:background="@drawable/header_background"
         android:elevation="6dp"
         android:layout_marginBottom="10dp"
-        android:backgroundTint="#5578f0"
+        android:backgroundTint="#272b3c"
         android:orientation="vertical"
         >
         <TextView
@@ -51,7 +54,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    android:backgroundTint="#272b3c">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
@@ -60,6 +68,7 @@
                 android:layout_marginBottom="5dp"
                 android:orientation="horizontal"
                 android:onClick="openChat1"
+
                 >
 
                 <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -81,18 +90,26 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="D Ahmed"
-                        android:textColor="#000"
+                        android:textColor="#fff"
                         android:textSize="25dp" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="on my way to clink please don't leave with out me"
-                        android:textSize="18dp" />
+                        android:textSize="18dp"
+                        android:textColor="#fff"/>
                 </LinearLayout>
 
 
             </LinearLayout>
+</androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp"
+                android:backgroundTint="#272b3c">
          <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
@@ -120,16 +137,24 @@
                 android:layout_height="wrap_content"
                 android:text="D Mohamed"
                 android:textSize="25dp"
-                android:textColor="#000"/>
+                android:textColor="#fff"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="on my way to clink please don't leave with out me"
-                android:textSize="18dp"/>
+                android:textSize="18dp"
+                android:textColor="#fff"/>
         </LinearLayout>
 
 
     </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp"
+                android:backgroundTint="#272b3c">
          <LinearLayout
              android:onClick="openChat3"
              android:layout_width="match_parent"
@@ -156,16 +181,24 @@
                 android:layout_height="wrap_content"
                 android:text="D Sara"
                 android:textSize="25dp"
-                android:textColor="#000"/>
+                android:textColor="#fff"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="on my way to clink please don't leave with out me"
-                android:textSize="18dp"/>
+                android:textSize="18dp"
+                android:textColor="#fff"/>
         </LinearLayout>
 
 
     </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardCornerRadius="10dp"
+                android:layout_margin="5dp"
+                android:backgroundTint="#272b3c">
             <LinearLayout
                 android:onClick="openChat4"
                 android:layout_width="match_parent"
@@ -192,16 +225,18 @@
                 android:layout_height="wrap_content"
                 android:text="D Aya"
                 android:textSize="25dp"
-                android:textColor="#000"/>
+                android:textColor="#fff"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="on my way to clink please don't leave with out me"
-                android:textSize="18dp"/>
+                android:textSize="18dp"
+                android:textColor="#fff"/>
         </LinearLayout>
 
 
     </LinearLayout>
+            </androidx.cardview.widget.CardView>
       </LinearLayout>
     </ScrollView>
 

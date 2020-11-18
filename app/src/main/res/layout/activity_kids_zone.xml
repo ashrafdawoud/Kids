@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".HomePage.KidsZone"
     android:orientation="vertical"
-    android:background="@drawable/coordinate_back"
+    android:background="#8b96d2"
     >
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
             android:background="@drawable/ic_left_arrow"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:backgroundTint="@color/blue"
+            android:backgroundTint="#fff"
             android:onClick="back"/>
         <TextView
             android:layout_width="match_parent"
@@ -33,7 +33,7 @@
             android:layout_gravity="center_vertical"
             android:text="Kids Zone"
             android:textSize="25dp"
-            android:textColor="#000"
+            android:textColor="#fff"
             android:textAlignment="center"/>
     </LinearLayout>
     <LinearLayout
@@ -80,7 +80,7 @@
             android:paddingTop="6dp"
             android:paddingBottom="6dp"
             android:background="@drawable/delete_24dp"
-            android:backgroundTint="@color/blue"
+            android:backgroundTint="#272b3c"
             android:onClick="clear"
             android:foreground="?attr/selectableItemBackground"
             />
@@ -92,7 +92,7 @@
         android:paddingTop="6dp"
         android:paddingBottom="6dp"
         android:background="@drawable/ic_volume_up_black_24dp"
-        android:backgroundTint="@color/blue"
+        android:backgroundTint="#272b3c"
         android:onClick="speak"
         android:foreground="?attr/selectableItemBackground"
         android:layout_gravity="center_horizontal"

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/constraint_layout_quiz_main"
+    android:background="#8b96d2"
     tools:context=".Test.TestExam">
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
@@ -55,7 +56,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
-            android:textColor="#000"
+            android:textColor="#fff"
             android:textSize="14sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -94,7 +95,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
-            android:textColor="@color/colorText"
+            android:textColor="#fff"
             android:textSize="14sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -133,7 +134,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
-            android:textColor="@color/colorText"
+            android:textColor="#fff"
             android:textSize="14sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -174,7 +175,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:layout_marginBottom="8dp"
-            android:textColor="@color/colorText"
+            android:textColor="#fff"
             android:textSize="14sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -200,7 +201,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
         android:text="levelname"
-        android:textColor="@color/colorText"
+        android:textColor="#fff"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/image_view_quiz_left_arrow"
         app:layout_constraintStart_toEndOf="@+id/image_view_quiz_left_arrow"
@@ -217,7 +218,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:text="question"
-        android:textColor="@color/colorText"
+        android:textColor="#fff"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -234,7 +235,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:text="What is true pronnounce for this word?"
-        android:textColor="@color/colorText"
+        android:textColor="#fff"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -263,7 +264,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="@color/redBright"
+        android:background="#272b3c"
         android:visibility="gone"
         />
 
@@ -289,7 +290,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/a2"
         android:src="@drawable/ic_volume_up_black_24dp"
-        android:backgroundTint="@color/blue"
+        android:backgroundTint="#fff"
+        android:tint="#fff"
         android:onClick="speak"
         />
 
@@ -366,7 +368,7 @@
             android:layout_height="50dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/ic_arrow_forward_black_24dp"
-            android:tint="@color/redBright"
+            android:tint="#fff"
             />
 
     </LinearLayout>

@@ -14,7 +14,6 @@ public class DoctorsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doctors);
-
     }
     public void openChat1(View view) {
         Intent intent=new Intent(this, ChatActivity.class);

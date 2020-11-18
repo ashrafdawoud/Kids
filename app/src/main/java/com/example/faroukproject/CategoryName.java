@@ -45,7 +45,6 @@ public class CategoryName extends AppCompatActivity {
         findCategory();
     }
     public void findCategory() {
-
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Category");
         //sorting object, ordering it by level number
         //query.orderByAscending("level_number");

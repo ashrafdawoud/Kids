@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="redBright">#0091EA</color>
-    <color name="colorText">#000000</color>
+    <color name="colorText">#272b3c</color>
     <color name="colorBackground">#E5E5E5</color>
     <color name="white">#FFFFFF</color>
     <color name="blue">#0091EA</color>
@@ -20,5 +20,5 @@
     <color name="unselected">#cacbcf</color>
     <color name="selected">#192048</color>
     <color name="backgroundrose">#FEFCFB</color>
-    <color name="light_background">#f5f5f7</color>
+    <color name="light_background">#272b3c</color>
 </resources>

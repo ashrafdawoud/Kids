@@ -321,6 +321,8 @@ String queryLanguage;
             answerD = json_data.getString("answer_d");
             imageUrl = json_data.getString("image_url");
             answer_option=json_data.getString("answer_option");
+            TextView textView=findViewById( R.id.text222);
+            textView.setText(answer_option);
             Log.e("answer_option",answer_option);
             //making this value global in this activity for being use in others methods(showcorrectAnswer)
             correctAnswer = json_data.getString("correct_answer");

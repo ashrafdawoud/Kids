@@ -199,26 +199,28 @@ public class TestExam extends AppCompatActivity implements View.OnClickListener 
             case R.id.text_view_quiz_answer_a:
 
                 if (correctAnswer.toUpperCase().equals("A")) {
-                    imageViewLetterA.setImageResource(R.drawable.ic_one_a);
-                     num_correct_ans+=1;
+                    imageViewLetterA.setImageResource(R.drawable.ic_green_answer_a);
+                    constraintLayoutAnswerA.setBackgroundColor(Color.parseColor("#1D00C853"));
+                    num_correct_ans+=1;
                     Log.e("correcr ",String.valueOf(num_correct_ans));
                     Log.e("number ",String.valueOf(questionNumber));
                     imageViewLetterB.setImageResource(R.drawable.ic_white_answer_b);
                     imageViewLetterC.setImageResource(R.drawable.ic_white_answer_c);
                     imageViewLetterD.setImageResource(R.drawable.ic_white_answer_d);
-
+                    disableMultipleClicks();
                 }
                 else{
-                    //  constraintLayoutAnswerA.setBackgroundColor(Color.parseColor("#23D50000"));
-                    //  imageViewLetterA.setImageResource(R.drawable.ic_red_answer_a);
-                    imageViewLetterA.setImageResource(R.drawable.ic_one_a);
-                    //showCorrectAnswer();
+                      constraintLayoutAnswerA.setBackgroundColor(Color.parseColor("#23D50000"));
+                      imageViewLetterA.setImageResource(R.drawable.ic_red_answer_a);
+                      showCorrectAnswer();
+                  /*  imageViewLetterA.setImageResource(R.drawable.ic_one_a);
+                    showCorrectAnswer();
                     Log.e("number ",String.valueOf(questionNumber));
                     imageViewLetterB.setImageResource(R.drawable.ic_white_answer_b);
                     imageViewLetterC.setImageResource(R.drawable.ic_white_answer_c);
-                    imageViewLetterD.setImageResource(R.drawable.ic_white_answer_d);
+                    imageViewLetterD.setImageResource(R.drawable.ic_white_answer_d);*/
                 }
-                //disableMultipleClicks();
+                disableMultipleClicks();
                 unHideNextQuestionView();
                 enableNextQuestionViewClick();
                 startAnimationNextQuestion();
@@ -229,29 +231,30 @@ public class TestExam extends AppCompatActivity implements View.OnClickListener 
             case R.id.constraint_layout_quiz_answer_b:
             case R.id.text_view_quiz_answer_b:
                 if (correctAnswer.equals("B")) {
-                    //   constraintLayoutAnswerB.setBackgroundColor(Color.parseColor("#1D00C853"));
-                    //   imageViewLetterB.setImageResource(R.drawable.ic_green_answer_b);
-                    imageViewLetterB.setImageResource(R.drawable.ic_one_b);
+                    constraintLayoutAnswerB.setBackgroundColor(Color.parseColor("#1D00C853"));
+                      imageViewLetterB.setImageResource(R.drawable.ic_green_answer_b);
+                   // imageViewLetterB.setImageResource(R.drawable.ic_one_b);
                     imageViewLetterA.setImageResource(R.drawable.ic_white_answer_a);
                     imageViewLetterC.setImageResource(R.drawable.ic_white_answer_c);
                     imageViewLetterD.setImageResource(R.drawable.ic_white_answer_d);
                     num_correct_ans+=1;
                     Log.e("correcr ",String.valueOf(num_correct_ans));
+                    disableMultipleClicks();
 
 
 
                 }
                 else{
-                    // constraintLayoutAnswerB.setBackgroundColor(Color.parseColor("#23D50000"));
-                    // imageViewLetterB.setImageResource(R.drawable.ic_red_answer_b);
-                    imageViewLetterB.setImageResource(R.drawable.ic_one_b);
+                     constraintLayoutAnswerB.setBackgroundColor(Color.parseColor("#23D50000"));
+                     imageViewLetterB.setImageResource(R.drawable.ic_red_answer_b);
+                   // imageViewLetterB.setImageResource(R.drawable.ic_one_b);
                     imageViewLetterA.setImageResource(R.drawable.ic_white_answer_a);
                     imageViewLetterC.setImageResource(R.drawable.ic_white_answer_c);
                     imageViewLetterD.setImageResource(R.drawable.ic_white_answer_d);
-                    //showCorrectAnswer();
+                    showCorrectAnswer();
 
                 }
-                // disableMultipleClicks();
+                 disableMultipleClicks();
                 unHideNextQuestionView();
                 enableNextQuestionViewClick();
                 startAnimationNextQuestion();
@@ -263,28 +266,28 @@ public class TestExam extends AppCompatActivity implements View.OnClickListener 
             case R.id.text_view_quiz_answer_c:
 
                 if (correctAnswer.equals("C")) {
-                    // constraintLayoutAnswerC.setBackgroundColor(Color.parseColor("#1D00C853"));
-                    //  imageViewLetterC.setImageResource(R.drawable.ic_green_answer_c);
-                    imageViewLetterC.setImageResource(R.drawable.ic_one_c);
+                     constraintLayoutAnswerC.setBackgroundColor(Color.parseColor("#1D00C853"));
+                      imageViewLetterC.setImageResource(R.drawable.ic_green_answer_c);
+                    //imageViewLetterC.setImageResource(R.drawable.ic_one_c);
                     imageViewLetterA.setImageResource(R.drawable.ic_white_answer_a);
                     imageViewLetterB.setImageResource(R.drawable.ic_white_answer_b);
                     imageViewLetterD.setImageResource(R.drawable.ic_white_answer_d);
                     num_correct_ans+=1;
                     Log.e("correcr ",String.valueOf(num_correct_ans));
-
+                    disableMultipleClicks();
 
                 }
                 else{
-                    // constraintLayoutAnswerC.setBackgroundColor(Color.parseColor("#23D50000"));
-                    // imageViewLetterC.setImageResource(R.drawable.ic_red_answer_c);
-                    imageViewLetterC.setImageResource(R.drawable.ic_one_c);
+                     constraintLayoutAnswerC.setBackgroundColor(Color.parseColor("#23D50000"));
+                     imageViewLetterC.setImageResource(R.drawable.ic_red_answer_c);
+                    //imageViewLetterC.setImageResource(R.drawable.ic_one_c);
                     imageViewLetterA.setImageResource(R.drawable.ic_white_answer_a);
                     imageViewLetterB.setImageResource(R.drawable.ic_white_answer_b);
                     imageViewLetterD.setImageResource(R.drawable.ic_white_answer_d);
-                    //showCorrectAnswer();
+                    showCorrectAnswer();
 
                 }
-                //disableMultipleClicks();
+                disableMultipleClicks();
                 unHideNextQuestionView();
                 enableNextQuestionViewClick();
                 startAnimationNextQuestion();
@@ -297,29 +300,30 @@ public class TestExam extends AppCompatActivity implements View.OnClickListener 
 
                 try {
                     if (correctAnswer.toUpperCase().equals("D")) {
-                        //   constraintLayoutAnswerD.setBackgroundColor(Color.parseColor("#1D00C853"));
-                        // imageViewLetterD.setImageResource(R.drawable.ic_green_answer_d);
-                        imageViewLetterD.setImageResource(R.drawable.ic_one_d);
+                           constraintLayoutAnswerD.setBackgroundColor(Color.parseColor("#1D00C853"));
+                         imageViewLetterD.setImageResource(R.drawable.ic_green_answer_d);
+                        //imageViewLetterD.setImageResource(R.drawable.ic_one_d);
                         imageViewLetterA.setImageResource(R.drawable.ic_white_answer_a);
                         imageViewLetterB.setImageResource(R.drawable.ic_white_answer_b);
                         imageViewLetterC.setImageResource(R.drawable.ic_white_answer_c);
                         num_correct_ans+=1;
                         Log.e("correcr ",String.valueOf(num_correct_ans));
+                        disableMultipleClicks();
 
                     }
                     else{
-                        //  constraintLayoutAnswerD.setBackgroundColor(Color.parseColor("#23D50000"));
-                        //  imageViewLetterD.setImageResource(R.drawable.ic_red_answer_d);
-                        imageViewLetterD.setImageResource(R.drawable.ic_one_d);
+                          constraintLayoutAnswerD.setBackgroundColor(Color.parseColor("#23D50000"));
+                          imageViewLetterD.setImageResource(R.drawable.ic_red_answer_d);
+                        //imageViewLetterD.setImageResource(R.drawable.ic_one_d);
                         imageViewLetterA.setImageResource(R.drawable.ic_white_answer_a);
                         imageViewLetterB.setImageResource(R.drawable.ic_white_answer_b);
                         imageViewLetterC.setImageResource(R.drawable.ic_white_answer_c);
-                        //showCorrectAnswer();
+                        showCorrectAnswer();
 
                     }
                 }catch (Exception e){}
 
-                // disableMultipleClicks();
+                 disableMultipleClicks();
                 unHideNextQuestionView();
                 enableNextQuestionViewClick();
                 startAnimationNextQuestion();
@@ -402,6 +406,7 @@ public class TestExam extends AppCompatActivity implements View.OnClickListener 
         }
         //increasing question number, every time the user click on "Next" will jump to next question
         questionNumber++;
+        enableSingleClick();
     }
     private void loadQuestionAndAnswerscolor() {
         String question,answerA,answerB,answerC,answerD,imageUrl;
